@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header navigation */
+header {
+    background-color: #333;
+ 
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the home section */
+.intro {
+    text-align: center;
+    padding: 2em;
+    color: blue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Style the about section */
+.about-me {
+    padding: 2em;
+    color: MAROON;
+}
+
+/* Style the portfolio section (customize as needed) */
+.portfolio {
+    padding: 2em;
+}
+
+/* Style the contact section */
+.contact {
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f0f0;
+    color: maroon;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: orange;
+}
